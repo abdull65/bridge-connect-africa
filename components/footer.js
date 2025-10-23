@@ -44,7 +44,7 @@ class CustomFooter extends HTMLElement {
         .footer-links h3,
         .footer-contact h3,
         .footer-newsletter h3 {
-          color: #20c997;
+          color: #7ad2d5;
           font-size: 1.2rem;
           margin-bottom: 1.5rem;
           font-weight: 600;
@@ -67,7 +67,7 @@ class CustomFooter extends HTMLElement {
         }
 
         .footer-links a:hover {
-          color: #20c997;
+          color: #7ad2d5;
         }
 
         .footer-contact p {
@@ -81,7 +81,7 @@ class CustomFooter extends HTMLElement {
 
         .contact-icon {
           flex-shrink: 0;
-          color: #20c997;
+          color: #7ad2d5;
         }
 
         .footer-newsletter input {
@@ -95,7 +95,7 @@ class CustomFooter extends HTMLElement {
         }
 
         .footer-newsletter button {
-          background: #20c997;
+          background: #7ad2d5;
           color: #1e293b;
           border: none;
           padding: 0.75rem 1.5rem;
@@ -128,7 +128,7 @@ class CustomFooter extends HTMLElement {
         }
 
         .social-links a:hover {
-          color: #20c997;
+          color: #7ad2d5;
           transform: translateY(-3px);
         }
 
@@ -209,7 +209,7 @@ class CustomFooter extends HTMLElement {
         const icons = this.shadowRoot.querySelectorAll("[data-feather]");
         icons.forEach(icon => {
           const name = icon.getAttribute("data-feather");
-          const svg = window.feather.icons[name].toSvg({ width: 20, height: 20, stroke: "#20c997" });
+          const svg = window.feather.icons[name].toSvg({ width: 20, height: 20, stroke: "#7ad2d5" });
           icon.outerHTML = svg;
         });
       } else {

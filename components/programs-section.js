@@ -51,7 +51,7 @@ class CustomPrograms extends HTMLElement {
         .icon {
           width: 3rem;
           height: 3rem;
-          background: #20c997;
+          background: #7ad2d5;
           border-radius: 9999px;
           display: flex;
           align-items: center;
@@ -71,7 +71,7 @@ class CustomPrograms extends HTMLElement {
           margin-bottom: 1rem;
         }
         a {
-          color: #20c997;
+          color: #7ad2d5;
           font-weight: 600;
           text-decoration: none;
           display: inline-flex;

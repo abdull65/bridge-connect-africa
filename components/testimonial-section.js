@@ -78,7 +78,7 @@ class CustomTestimonials extends HTMLElement {
         }
 
         button:hover {
-          background: #20c997;
+          background: #7ad2d5;
           transform: scale(1.05);
         }
 

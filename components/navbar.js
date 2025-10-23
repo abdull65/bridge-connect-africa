@@ -6,7 +6,7 @@ class CustomNavbar extends HTMLElement {
         :host {
           --nav-bg: #1e293b;
           --nav-bg-scrolled: #1e293b;
-          --accent: #20c997;
+          --accent: #7ad2d5;
           --text-color: white;
         }
 

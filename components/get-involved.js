@@ -48,7 +48,7 @@ class CustomGetInvolved extends HTMLElement {
         .icon {
           font-size: 2.5rem;
           margin-bottom: 1rem;
-          color: #20c997;
+          color: #7ad2d5;
         }
 
         h3 {
@@ -59,7 +59,7 @@ class CustomGetInvolved extends HTMLElement {
 
         .cta-btn {
           margin-top: 3rem;
-          background: #20c997;
+          background: #7ad2d5;
           color: #1e293b;
           font-weight: 600;
           padding: 0.9rem 2rem;

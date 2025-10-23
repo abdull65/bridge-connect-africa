@@ -16,7 +16,7 @@ class CustomImpact extends HTMLElement {
           font-size: 2rem;
           font-weight: 700;
           margin-bottom: 3rem;
-          color: #20c997;
+          color: #7ad2d5;
           position: relative;
           z-index: 2;
         }
@@ -45,7 +45,7 @@ class CustomImpact extends HTMLElement {
         .value {
           font-size: 3rem;
           font-weight: 800;
-          color: #20c997;
+          color: #7ad2d5;
           margin: 0;
           display: flex;
           justify-content: center;

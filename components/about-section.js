@@ -54,7 +54,7 @@ class CustomAbout extends HTMLElement {
         }
 
         .btn-primary {
-          background-color: #20c997;
+          background-color: #7ad2d5;
           color: #1e293b;
         }
 
