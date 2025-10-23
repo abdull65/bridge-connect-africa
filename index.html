@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bridge Connect - Africa Initiative</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-poppins bg-gray-50">
+    <custom-navbar></custom-navbar>
+
+    <!-- Hero Section -->
+    <custom-hero></custom-hero>
+
+    <!-- About Section -->
+    <custom-about></custom-about>
+    
+    <!-- partners Section -->
+     <custom-partners></custom-partners>
+
+    <!-- Programs Section -->
+    <custom-program></custom-program>
+
+    <!-- Impact Section -->
+    <custom-impact></custom-impact>
+
+    <!-- Testimonials -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-blue-900 mb-16">Voices of Change</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <div class="flex items-center mb-6">
+                        <img src="http://static.photos/people/200x200/6" alt="Amina" class="w-16 h-16 rounded-full object-cover mr-4">
+                        <div>
+                            <h4 class="font-bold text-blue-900">Amina Diallo</h4>
+                            <p class="text-gray-600">Girls Education Program, Senegal</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">
+                        "The leadership training I received through Bridge Connect gave me the confidence to start a girls' coding club in my community. Now we're teaching 30 girls how to build websites and apps!"
+                    </p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <div class="flex items-center mb-6">
+                        <img src="http://static.photos/people/200x200/7" alt="Kwame" class="w-16 h-16 rounded-full object-cover mr-4">
+                        <div>
+                            <h4 class="font-bold text-blue-900">Kwame Osei</h4>
+                            <p class="text-gray-600">Civic Engagement Fellow, Ghana</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">
+                        "Thanks to the civic education workshops, my friends and I organized a community forum that led to better sanitation facilities in our neighborhood. Bridge Connect showed us that our voices matter."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="get-involved" class="py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-white-900 mb-6">Be Part of the Change</h2>
+            <p class="text-white-900 text-xl mb-10 max-w-2xl mx-auto">
+                Join our mission to build a more informed and equitable Africa. Your support can transform lives.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#" class="bg-green-700 hover:bg-green-800 text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 transform hover:scale-105">
+                    Donate Now
+                </a>
+                <a href="#" class="bg-white hover:bg-gray-100 text-gray-900 font-semibold px-8 py-4 rounded-lg transition-all duration-300 transform hover:scale-105">
+                    Volunteer With Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="components/hero-section.js"></script>
+    <script src="components/about-section.js"></script>
+    <script src="components/programs-section.js"></script>
+    <script src="components/impact-section.js"></script>
+    <script src="components/testimonial-section.js"></script>
+    <script src="components/partners-section.js"></script>
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+/* Custom Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Section transitions */
+section {
+    transition: all 0.3s ease;
+}
+
+/* Custom button animations */
+.btn-hover {
+    transition: all 0.3s ease;
+}
+
+.btn-hover:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3b82f6;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #2563eb;
+}
+
+.logo {
+    height: 120px;
+    width: 120px;
+}
+
+#get-involved {
+  background: 
+    linear-gradient(135deg, rgba(30, 41, 59, 0.85), rgba(30, 41, 59, 0.85)),
+    url("https://bridgeconnectafrica.org/wp-content/uploads/2024/12/DSC00813-1-2048x1268.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
