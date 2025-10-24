@@ -6,7 +6,7 @@ class CustomGetInvolved extends HTMLElement {
         section {
           background: linear-gradient(to right, #1e293b, #1d4ed8);
           color: white;
-          padding: 6rem 2rem;
+          padding: 4rem 2rem;
           text-align: center;
           position: relative;
         }

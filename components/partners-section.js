@@ -6,7 +6,7 @@ class CustomPartners extends HTMLElement {
         section {
           text-align: center;
           background: #f9fafb;
-          padding: 4rem 1rem;
+          padding: 3rem 1rem;
         }
         h2 {
           font-size: 2rem;
@@ -28,7 +28,7 @@ class CustomPartners extends HTMLElement {
           display: flex;
           align-items: center;
           gap: 3rem;
-          animation: scroll 40s linear infinite;
+          animation: scroll 20s linear infinite;
         }
         .logos-track:hover {
           animation-play-state: paused;
@@ -37,7 +37,7 @@ class CustomPartners extends HTMLElement {
           height: 60px;
           object-fit: contain;
           transition: transform 0.3s ease;
-          filter: grayscale(100%);
+          filter: grayscale(0%);
           opacity: 0.8;
         }
         .logos-track img:hover {

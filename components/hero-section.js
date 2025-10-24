@@ -97,7 +97,7 @@ class CustomHero extends HTMLElement {
 
         h1 {
           color: #fff;
-          font-size: 2.5rem;
+          font-size: 2.2rem;
           line-height: 1.2;
           font-weight: 700;
           margin-bottom: 1.5rem;
@@ -122,7 +122,8 @@ class CustomHero extends HTMLElement {
         }
 
         .btn {
-          padding: 0.75rem 2rem;
+          padding: 0.75rem 1.4rem;
+          font-size: 1rem;
           font-weight: 600;
           border-radius: 0.5rem;
           transition: all 0.3s ease;
@@ -188,7 +189,7 @@ class CustomHero extends HTMLElement {
           background: rgba(255, 255, 255, 0.3);
           color: white;
           border: none;
-          font-size: 2rem;
+          font-size: 1.4rem;
           cursor: pointer;
           z-index: 10;
           padding: 0.5rem 1rem;
@@ -201,11 +202,11 @@ class CustomHero extends HTMLElement {
         }
 
         .prev {
-          left: 30px;
+          left: 14px;
         }
 
         .next {
-          right: 30px;
+          right: 14px;
         }
 
         @media (min-width: 640px) {

@@ -131,14 +131,13 @@ class CustomNavbar extends HTMLElement {
         @media (max-width: 768px) {
           ul {
             position: fixed;
-            top: 70px;
+            top: 100%;
             left: 0;
             width: 100%;
             background: var(--nav-bg-scrolled);
             flex-direction: column;
             align-items: center;
             padding: 2rem 0;
-            gap: 1.5rem;
             clip-path: circle(0px at 90% -10%);
             transition: all 0.5s ease-out;
           }
@@ -152,7 +151,7 @@ class CustomNavbar extends HTMLElement {
           }
 
           .donate-btn {
-            margin-top: 1rem;
+            margin-top: 2.4rem;
           }
         }
 

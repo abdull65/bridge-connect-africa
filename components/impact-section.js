@@ -6,7 +6,7 @@ class CustomImpact extends HTMLElement {
         section {
           background: linear-gradient(135deg, #1e293b, #1e293b);
           color: white;
-          padding: 5rem 1.5rem;
+          padding: 3rem 1.5rem;
           text-align: center;
           position: relative;
           overflow: hidden;

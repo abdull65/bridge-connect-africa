@@ -5,7 +5,7 @@ class CustomAbout extends HTMLElement {
       <style>
         section {
           background: #ffffff;
-          padding: 5rem 1.5rem;
+          padding: 3rem 1.5rem;
         }
 
         .container {
@@ -14,7 +14,7 @@ class CustomAbout extends HTMLElement {
           display: flex;
           flex-direction: column;
           align-items: center;
-          gap: 3rem;
+          gap: 2rem;
         }
 
         .text {

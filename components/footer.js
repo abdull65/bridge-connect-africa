@@ -6,7 +6,7 @@ class CustomFooter extends HTMLElement {
         footer {
           background: #1e293b;
           color: white;
-          padding: 3rem 4rem;
+          padding: 3rem 2rem;
           font-family: 'Inter', sans-serif;
         }
 
@@ -160,7 +160,9 @@ class CustomFooter extends HTMLElement {
             <a href="/" class="logo">
               <img src="https://bridgeconnectafrica.org/wp-content/uploads/2021/02/cropped-BCAI.png" alt="Bridge Connect logo" />
             </a>
-            <p>Empowering African youth through education, equality, and civic engagement since 2015.</p>
+            <p>
+            Bridge Connect Africa Initiative (BCAI), as a non-governmental organization, aims to address these challenges by empowering and amplifying the rights of women and young people in their communities by developing and implementing innovative solutions that promote equity, justice, and sustainability.
+            </p>
             <div class="social-links">
               <a href="#" aria-label="Facebook"><i data-feather="facebook"></i></a>
               <a href="#" aria-label="Twitter"><i data-feather="twitter"></i></a>
